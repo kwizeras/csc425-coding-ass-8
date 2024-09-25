@@ -1,0 +1,33 @@
+/*********************************************
+Your name: Sotaire Kwizera
+Question 2: 
+
+- Total memory:7938 
+- Used memory:1284
+- Free memory:162
+No, the numbers do not match my intuition. I thought I had I had a lot more free memory. 
+
+Question 4:
+When the program is running: When the program is running, memory usage slightly increases because the program is allocating memory and actively using it.
+@kwizeras ➜ /workspaces/csc425-coding-ass-8 (main) $ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7938        1399         235          63        6304        6160
+Swap:             0           0           0
+When I kill the program: After killing the program, that allocated memory was released, causing the used field to decrease.
+@kwizeras ➜ /workspaces/csc425-coding-ass-8 (main) $ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7938        1321         286          63        6331        6238
+Swap:             0           0           0
+
+Yes, the numbers I got were expected. When I allocate a large amount of memory like 1000MB,the amount of used memory increases by a lot to become 2284. However, when I kill the program, the used memory comes back down to 1319 while the free memory increases to 1165. (See the output below)
+@kwizeras ➜ /workspaces/csc425-coding-ass-8 (main) $ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7938        2284         201          63        5452        5274
+Swap:             0           0           0
+@kwizeras ➜ /workspaces/csc425-coding-ass-8 (main) $ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7938        1319        1165          63        5453        6240
+Swap:             0           0           0
+Question 7: <your answer>
+Question 8: <your answer>
+*********************************************/
