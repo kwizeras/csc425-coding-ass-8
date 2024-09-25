@@ -28,6 +28,6 @@ Swap:             0           0           0
               total        used        free      shared  buff/cache   available
 Mem:           7938        1319        1165          63        5453        6240
 Swap:             0           0           0
-Question 7: <your answer>
-Question 8: <your answer>
+Question 7: The mordern address space has a lot more entities including: Adrress, Perm, Offset, Device, Inode, Size, Rss, Pss, ...
+Question 8: Yes, It matched my expectations. With large amounts of memory allocation, I tend to get significant heap allocation. 
 *********************************************/
